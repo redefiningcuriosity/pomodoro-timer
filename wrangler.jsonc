@@ -2,16 +2,6 @@
     "$schema": "./node_modules/wrangler/config-schema.json",
     // Top-level configuration
     "name": "pomodoro-timer",
-    "main": "./index.html",
     "compatibility_date": "2026-02-07",
-    "workers_dev": false,
-    "env": {
-        "staging": {
-            "name": "my-worker-staging",
-            "route": {
-                "pattern": "staging.example.org/*",
-                "zone_name": "example.org"
-            }
-        }
-    }
+    "workers_dev": false
 }
